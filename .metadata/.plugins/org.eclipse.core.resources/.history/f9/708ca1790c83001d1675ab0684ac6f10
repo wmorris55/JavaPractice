@@ -1,0 +1,26 @@
+
+public class Awesome {
+
+	public static void main(String[] args) {
+		
+		int myInt = 7;
+		double showSize = 9.5;
+		char myInitial = 'J';
+		
+		String myName = "John";
+		myName.length();
+		
+		double result = myInt * showSize;
+		
+		System.out.println(result);
+		System.out.println(myName.toUpperCase());
+		
+		printName("will", 3);
+
+	}
+	
+	private static void printName(String name, int number) {
+		System.out.println("My name is " + name);
+	}
+
+}
